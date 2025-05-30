@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta ISBN - Brasil API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Consulta de Livros por ISBN</h1>
+
+        <form id="isbnForm">
+            <label for="isbn">Digite o ISBN (somente números):</label>
+            <input type="text" id="isbn" name="isbn" maxlength="13" required>
+            <button type="submit">Buscar</button>
+        </form>
+
+        <div id="mensagem" class="mensagem"></div>
+
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
